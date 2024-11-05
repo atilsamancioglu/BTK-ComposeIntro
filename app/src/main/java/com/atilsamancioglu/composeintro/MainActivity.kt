@@ -54,35 +54,19 @@ fun MainScreen() {
         , verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "Merhaba Atil",
-            color= Color.Red,
-            fontWeight = FontWeight.Bold,
-            fontSize = 56.sp
-        )
+        OzellestirilmisText(text = "Merhaba Atil")
 
         Spacer(modifier = Modifier.padding(20.dp))
 
-        Text(text = "Merhaba Compose",
-            color= Color.Black,
-            fontWeight = FontWeight.Bold,
-            fontSize = 36.sp
-        )
+        OzellestirilmisText(text = "Merhaba Compose")
 
         Spacer(modifier = Modifier.padding(70.dp))
 
-        Text(text = "Merhaba Samancioglu",
-            color= Color.Red,
-            fontWeight = FontWeight.Bold,
-            fontSize = 36.sp
-        )
+        OzellestirilmisText(text = "Merhaba Samancıoğlu")
 
         Spacer(modifier = Modifier.padding(20.dp))
 
-        Text(text = "Merhaba Android",
-            color= Color.Black,
-            fontWeight = FontWeight.Bold,
-            fontSize = 26.sp
-        )
+        OzellestirilmisText(text = "Merhaba Android")
 
         Row(
             modifier = Modifier
@@ -98,6 +82,9 @@ fun MainScreen() {
     }
 
 }
+
+
+
 
 
 
